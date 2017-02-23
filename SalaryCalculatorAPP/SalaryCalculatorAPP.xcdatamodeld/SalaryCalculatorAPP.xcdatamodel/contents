@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="DayExpenses" representedClassName="DayExpenses" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="expenses" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Expense" syncable="YES"/>
+    </entity>
+    <entity name="Expense" representedClassName="Expense" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MonthExpenses" representedClassName="MonthExpenses" syncable="YES" codeGenerationType="class">
+        <attribute name="monthDate" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="monthExpenses" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="DayExpenses" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DayExpenses" positionX="-45" positionY="-36" width="128" height="90"/>
+        <element name="Expense" positionX="-63" positionY="-45" width="128" height="105"/>
+        <element name="MonthExpenses" positionX="-54" positionY="-9" width="128" height="75"/>
+    </elements>
 </model>

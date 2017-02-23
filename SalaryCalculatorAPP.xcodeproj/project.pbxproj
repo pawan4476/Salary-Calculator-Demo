@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0447FBB31E1CE91E00FE1354 /* BarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FB9D1E1CE91E00FE1354 /* BarChart.m */; };
+		0447FBB41E1CE91E00FE1354 /* CircularChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FBA01E1CE91E00FE1354 /* CircularChart.m */; };
+		0447FBB51E1CE91E00FE1354 /* DRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FBA41E1CE91E00FE1354 /* DRScrollView.m */; };
+		0447FBB61E1CE91E00FE1354 /* HorizontalStackBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FBA71E1CE91E00FE1354 /* HorizontalStackBarChart.m */; };
+		0447FBB71E1CE91E00FE1354 /* LegendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FBAA1E1CE91E00FE1354 /* LegendView.m */; };
+		0447FBB81E1CE91E00FE1354 /* LineGraphMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FBAD1E1CE91E00FE1354 /* LineGraphMarker.m */; };
+		0447FBB91E1CE91E00FE1354 /* MultiLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FBAF1E1CE91E00FE1354 /* MultiLineGraphView.m */; };
+		0447FBBA1E1CE91E00FE1354 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447FBB21E1CE91E00FE1354 /* PieChart.m */; };
+		52172F5A1E0023C600940C2C /* SalaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52172F591E0023C600940C2C /* SalaryViewController.m */; };
+		52172F5D1E002C5900940C2C /* SalaryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52172F5C1E002C5900940C2C /* SalaryDetailsViewController.m */; };
+		52172F5F1E0032B400940C2C /* SalarySurvey2013News574-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52172F5E1E0032B400940C2C /* SalarySurvey2013News574-2.png */; };
+		52172F611E003A3300940C2C /* Sort Down Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 52172F601E003A3300940C2C /* Sort Down Filled-50.png */; };
+		5227CD771E119D4400F770BE /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CD761E119D4400F770BE /* GraphViewController.m */; };
+		5227CD791E11A1E000F770BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5227CD781E11A1E000F770BE /* CoreGraphics.framework */; };
+		5227CD7B1E11A1EB00F770BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5227CD7A1E11A1EB00F770BE /* UIKit.framework */; };
+		5227CD7D1E11A1F500F770BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5227CD7C1E11A1F500F770BE /* QuartzCore.framework */; };
+		5227CD7F1E11A20500F770BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5227CD7E1E11A20500F770BE /* Foundation.framework */; };
+		5227CDD41E11A6BA00F770BE /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDB51E11A6BA00F770BE /* PNBar.m */; };
+		5227CDD51E11A6BB00F770BE /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDB71E11A6BA00F770BE /* PNBarChart.m */; };
+		5227CDD61E11A6BB00F770BE /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDBB1E11A6BA00F770BE /* PNChartLabel.m */; };
+		5227CDD71E11A6BB00F770BE /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDBD1E11A6BA00F770BE /* PNColor.m */; };
+		5227CDD81E11A6BB00F770BE /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDBF1E11A6BA00F770BE /* PNGenericChart.m */; };
+		5227CDD91E11A6BB00F770BE /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDC11E11A6BA00F770BE /* PNLineChart.m */; };
+		5227CDDA1E11A6BB00F770BE /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDC31E11A6BA00F770BE /* PNLineChartData.m */; };
+		5227CDDB1E11A6BB00F770BE /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDC51E11A6BA00F770BE /* PNLineChartDataItem.m */; };
+		5227CDDC1E11A6BB00F770BE /* PNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDC71E11A6BA00F770BE /* PNPieChart.m */; };
+		5227CDDD1E11A6BB00F770BE /* PNPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDC91E11A6BA00F770BE /* PNPieChartDataItem.m */; };
+		5227CDDE1E11A6BB00F770BE /* PNRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDCB1E11A6BA00F770BE /* PNRadarChart.m */; };
+		5227CDDF1E11A6BB00F770BE /* PNRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDCD1E11A6BA00F770BE /* PNRadarChartDataItem.m */; };
+		5227CDE01E11A6BB00F770BE /* PNScatterChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDCF1E11A6BA00F770BE /* PNScatterChart.m */; };
+		5227CDE11E11A6BB00F770BE /* PNScatterChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDD11E11A6BA00F770BE /* PNScatterChartData.m */; };
+		5227CDE21E11A6BB00F770BE /* PNScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227CDD31E11A6BA00F770BE /* PNScatterChartDataItem.m */; };
+		524D43D01E0860B1003C65A0 /* PersonalExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D43CF1E0860B1003C65A0 /* PersonalExpenseViewController.m */; };
+		526AC66E1E007F2300752B68 /* Rupee-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 526AC66D1E007F2300752B68 /* Rupee-50.png */; };
+		526D839C1E02DCDA002750F0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526D839B1E02DCDA002750F0 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		527A6E801DFF259F00510FA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6E7F1DFF259F00510FA3 /* main.m */; };
 		527A6E831DFF259F00510FA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6E821DFF259F00510FA3 /* AppDelegate.m */; };
 		527A6E861DFF25A000510FA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6E851DFF25A000510FA3 /* ViewController.m */; };
@@ -16,6 +51,8 @@
 		527A6E911DFF25A200510FA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527A6E8F1DFF25A200510FA3 /* LaunchScreen.storyboard */; };
 		527A6E9C1DFF25A300510FA3 /* SalaryCalculatorAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6E9B1DFF25A300510FA3 /* SalaryCalculatorAPPTests.m */; };
 		527A6EA71DFF25A300510FA3 /* SalaryCalculatorAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6EA61DFF25A300510FA3 /* SalaryCalculatorAPPUITests.m */; };
+		527A6EF81DFF34BC00510FA3 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6EF71DFF34BC00510FA3 /* firstViewController.m */; };
+		527A6EFB1DFF415800510FA3 /* ExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A6EFA1DFF415800510FA3 /* ExpensesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +73,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0447FB9C1E1CE91E00FE1354 /* BarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChart.h; sourceTree = "<group>"; };
+		0447FB9D1E1CE91E00FE1354 /* BarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChart.m; sourceTree = "<group>"; };
+		0447FB9F1E1CE91E00FE1354 /* CircularChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularChart.h; sourceTree = "<group>"; };
+		0447FBA01E1CE91E00FE1354 /* CircularChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularChart.m; sourceTree = "<group>"; };
+		0447FBA11E1CE91E00FE1354 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0447FBA21E1CE91E00FE1354 /* DrGraphs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrGraphs.h; sourceTree = "<group>"; };
+		0447FBA31E1CE91E00FE1354 /* DRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRScrollView.h; sourceTree = "<group>"; };
+		0447FBA41E1CE91E00FE1354 /* DRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRScrollView.m; sourceTree = "<group>"; };
+		0447FBA61E1CE91E00FE1354 /* HorizontalStackBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalStackBarChart.h; sourceTree = "<group>"; };
+		0447FBA71E1CE91E00FE1354 /* HorizontalStackBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalStackBarChart.m; sourceTree = "<group>"; };
+		0447FBA91E1CE91E00FE1354 /* LegendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendView.h; sourceTree = "<group>"; };
+		0447FBAA1E1CE91E00FE1354 /* LegendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendView.m; sourceTree = "<group>"; };
+		0447FBAC1E1CE91E00FE1354 /* LineGraphMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphMarker.h; sourceTree = "<group>"; };
+		0447FBAD1E1CE91E00FE1354 /* LineGraphMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphMarker.m; sourceTree = "<group>"; };
+		0447FBAE1E1CE91E00FE1354 /* MultiLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLineGraphView.h; sourceTree = "<group>"; };
+		0447FBAF1E1CE91E00FE1354 /* MultiLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLineGraphView.m; sourceTree = "<group>"; };
+		0447FBB11E1CE91E00FE1354 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		0447FBB21E1CE91E00FE1354 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		52172F581E0023C600940C2C /* SalaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalaryViewController.h; sourceTree = "<group>"; };
+		52172F591E0023C600940C2C /* SalaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalaryViewController.m; sourceTree = "<group>"; };
+		52172F5B1E002C5900940C2C /* SalaryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalaryDetailsViewController.h; sourceTree = "<group>"; };
+		52172F5C1E002C5900940C2C /* SalaryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalaryDetailsViewController.m; sourceTree = "<group>"; };
+		52172F5E1E0032B400940C2C /* SalarySurvey2013News574-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SalarySurvey2013News574-2.png"; sourceTree = "<group>"; };
+		52172F601E003A3300940C2C /* Sort Down Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sort Down Filled-50.png"; sourceTree = "<group>"; };
+		5227CD751E119D4400F770BE /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		5227CD761E119D4400F770BE /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		5227CD781E11A1E000F770BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5227CD7A1E11A1EB00F770BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5227CD7C1E11A1F500F770BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5227CD7E1E11A20500F770BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5227CDB41E11A6BA00F770BE /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		5227CDB51E11A6BA00F770BE /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		5227CDB61E11A6BA00F770BE /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		5227CDB71E11A6BA00F770BE /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		5227CDB81E11A6BA00F770BE /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		5227CDB91E11A6BA00F770BE /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		5227CDBA1E11A6BA00F770BE /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		5227CDBB1E11A6BA00F770BE /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		5227CDBC1E11A6BA00F770BE /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		5227CDBD1E11A6BA00F770BE /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		5227CDBE1E11A6BA00F770BE /* PNGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGenericChart.h; sourceTree = "<group>"; };
+		5227CDBF1E11A6BA00F770BE /* PNGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGenericChart.m; sourceTree = "<group>"; };
+		5227CDC01E11A6BA00F770BE /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		5227CDC11E11A6BA00F770BE /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		5227CDC21E11A6BA00F770BE /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartData.h; sourceTree = "<group>"; };
+		5227CDC31E11A6BA00F770BE /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartData.m; sourceTree = "<group>"; };
+		5227CDC41E11A6BA00F770BE /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartDataItem.h; sourceTree = "<group>"; };
+		5227CDC51E11A6BA00F770BE /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartDataItem.m; sourceTree = "<group>"; };
+		5227CDC61E11A6BA00F770BE /* PNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChart.h; sourceTree = "<group>"; };
+		5227CDC71E11A6BA00F770BE /* PNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChart.m; sourceTree = "<group>"; };
+		5227CDC81E11A6BA00F770BE /* PNPieChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChartDataItem.h; sourceTree = "<group>"; };
+		5227CDC91E11A6BA00F770BE /* PNPieChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChartDataItem.m; sourceTree = "<group>"; };
+		5227CDCA1E11A6BA00F770BE /* PNRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChart.h; sourceTree = "<group>"; };
+		5227CDCB1E11A6BA00F770BE /* PNRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChart.m; sourceTree = "<group>"; };
+		5227CDCC1E11A6BA00F770BE /* PNRadarChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChartDataItem.h; sourceTree = "<group>"; };
+		5227CDCD1E11A6BA00F770BE /* PNRadarChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChartDataItem.m; sourceTree = "<group>"; };
+		5227CDCE1E11A6BA00F770BE /* PNScatterChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChart.h; sourceTree = "<group>"; };
+		5227CDCF1E11A6BA00F770BE /* PNScatterChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChart.m; sourceTree = "<group>"; };
+		5227CDD01E11A6BA00F770BE /* PNScatterChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartData.h; sourceTree = "<group>"; };
+		5227CDD11E11A6BA00F770BE /* PNScatterChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartData.m; sourceTree = "<group>"; };
+		5227CDD21E11A6BA00F770BE /* PNScatterChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartDataItem.h; sourceTree = "<group>"; };
+		5227CDD31E11A6BA00F770BE /* PNScatterChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartDataItem.m; sourceTree = "<group>"; };
+		524D43CE1E0860B0003C65A0 /* PersonalExpenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalExpenseViewController.h; sourceTree = "<group>"; };
+		524D43CF1E0860B1003C65A0 /* PersonalExpenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalExpenseViewController.m; sourceTree = "<group>"; };
+		525851F51E02C8E4009EC243 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		526AC66D1E007F2300752B68 /* Rupee-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rupee-50.png"; sourceTree = "<group>"; };
+		526D839B1E02DCDA002750F0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		527A6E7B1DFF259E00510FA3 /* SalaryCalculatorAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalaryCalculatorAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527A6E7F1DFF259F00510FA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		527A6E811DFF259F00510FA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +157,22 @@
 		527A6EA21DFF25A300510FA3 /* SalaryCalculatorAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryCalculatorAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527A6EA61DFF25A300510FA3 /* SalaryCalculatorAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryCalculatorAPPUITests.m; sourceTree = "<group>"; };
 		527A6EA81DFF25A300510FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527A6EF61DFF34BB00510FA3 /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		527A6EF71DFF34BC00510FA3 /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		527A6EF91DFF415800510FA3 /* ExpensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesViewController.h; sourceTree = "<group>"; };
+		527A6EFA1DFF415800510FA3 /* ExpensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesViewController.m; sourceTree = "<group>"; };
+		52E4255E1E13017A00B24020 /* DayExpenses+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DayExpenses+CoreDataClass.h"; path = "../DayExpenses+CoreDataClass.h"; sourceTree = "<group>"; };
+		52E4255F1E13017B00B24020 /* DayExpenses+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DayExpenses+CoreDataClass.m"; path = "../DayExpenses+CoreDataClass.m"; sourceTree = "<group>"; };
+		52E425601E13017B00B24020 /* DayExpenses+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DayExpenses+CoreDataProperties.h"; path = "../DayExpenses+CoreDataProperties.h"; sourceTree = "<group>"; };
+		52E425611E13017B00B24020 /* DayExpenses+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DayExpenses+CoreDataProperties.m"; path = "../DayExpenses+CoreDataProperties.m"; sourceTree = "<group>"; };
+		52E425621E13017B00B24020 /* Expense+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Expense+CoreDataClass.h"; path = "../Expense+CoreDataClass.h"; sourceTree = "<group>"; };
+		52E425631E13017B00B24020 /* Expense+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Expense+CoreDataClass.m"; path = "../Expense+CoreDataClass.m"; sourceTree = "<group>"; };
+		52E425641E13017B00B24020 /* Expense+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Expense+CoreDataProperties.h"; path = "../Expense+CoreDataProperties.h"; sourceTree = "<group>"; };
+		52E425651E13017B00B24020 /* Expense+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Expense+CoreDataProperties.m"; path = "../Expense+CoreDataProperties.m"; sourceTree = "<group>"; };
+		52E425661E13017B00B24020 /* MonthExpenses+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MonthExpenses+CoreDataClass.h"; path = "../MonthExpenses+CoreDataClass.h"; sourceTree = "<group>"; };
+		52E425671E13017B00B24020 /* MonthExpenses+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MonthExpenses+CoreDataClass.m"; path = "../MonthExpenses+CoreDataClass.m"; sourceTree = "<group>"; };
+		52E425681E13017B00B24020 /* MonthExpenses+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MonthExpenses+CoreDataProperties.h"; path = "../MonthExpenses+CoreDataProperties.h"; sourceTree = "<group>"; };
+		52E425691E13017B00B24020 /* MonthExpenses+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MonthExpenses+CoreDataProperties.m"; path = "../MonthExpenses+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +180,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5227CD7F1E11A20500F770BE /* Foundation.framework in Frameworks */,
+				5227CD7D1E11A1F500F770BE /* QuartzCore.framework in Frameworks */,
+				5227CD7B1E11A1EB00F770BE /* UIKit.framework in Frameworks */,
+				5227CD791E11A1E000F770BE /* CoreGraphics.framework in Frameworks */,
+				526D839C1E02DCDA002750F0 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +205,190 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0447FB9A1E1CE91E00FE1354 /* DR-Charts */ = {
+			isa = PBXGroup;
+			children = (
+				0447FB9B1E1CE91E00FE1354 /* BarChart */,
+				0447FB9E1E1CE91E00FE1354 /* CircularChart */,
+				0447FBA11E1CE91E00FE1354 /* Constants.h */,
+				0447FBA21E1CE91E00FE1354 /* DrGraphs.h */,
+				0447FBA31E1CE91E00FE1354 /* DRScrollView.h */,
+				0447FBA41E1CE91E00FE1354 /* DRScrollView.m */,
+				0447FBA51E1CE91E00FE1354 /* HorizontalStackChart */,
+				0447FBA81E1CE91E00FE1354 /* Legend */,
+				0447FBAB1E1CE91E00FE1354 /* LineChart */,
+				0447FBB01E1CE91E00FE1354 /* PieChart */,
+			);
+			path = "DR-Charts";
+			sourceTree = "<group>";
+		};
+		0447FB9B1E1CE91E00FE1354 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				0447FB9C1E1CE91E00FE1354 /* BarChart.h */,
+				0447FB9D1E1CE91E00FE1354 /* BarChart.m */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		0447FB9E1E1CE91E00FE1354 /* CircularChart */ = {
+			isa = PBXGroup;
+			children = (
+				0447FB9F1E1CE91E00FE1354 /* CircularChart.h */,
+				0447FBA01E1CE91E00FE1354 /* CircularChart.m */,
+			);
+			path = CircularChart;
+			sourceTree = "<group>";
+		};
+		0447FBA51E1CE91E00FE1354 /* HorizontalStackChart */ = {
+			isa = PBXGroup;
+			children = (
+				0447FBA61E1CE91E00FE1354 /* HorizontalStackBarChart.h */,
+				0447FBA71E1CE91E00FE1354 /* HorizontalStackBarChart.m */,
+			);
+			path = HorizontalStackChart;
+			sourceTree = "<group>";
+		};
+		0447FBA81E1CE91E00FE1354 /* Legend */ = {
+			isa = PBXGroup;
+			children = (
+				0447FBA91E1CE91E00FE1354 /* LegendView.h */,
+				0447FBAA1E1CE91E00FE1354 /* LegendView.m */,
+			);
+			path = Legend;
+			sourceTree = "<group>";
+		};
+		0447FBAB1E1CE91E00FE1354 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				0447FBAC1E1CE91E00FE1354 /* LineGraphMarker.h */,
+				0447FBAD1E1CE91E00FE1354 /* LineGraphMarker.m */,
+				0447FBAE1E1CE91E00FE1354 /* MultiLineGraphView.h */,
+				0447FBAF1E1CE91E00FE1354 /* MultiLineGraphView.m */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		0447FBB01E1CE91E00FE1354 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				0447FBB11E1CE91E00FE1354 /* PieChart.h */,
+				0447FBB21E1CE91E00FE1354 /* PieChart.m */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		5227CDB31E11A6BA00F770BE /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				5227CDB41E11A6BA00F770BE /* PNBar.h */,
+				5227CDB51E11A6BA00F770BE /* PNBar.m */,
+				5227CDB61E11A6BA00F770BE /* PNBarChart.h */,
+				5227CDB71E11A6BA00F770BE /* PNBarChart.m */,
+				5227CDB81E11A6BA00F770BE /* PNChart.h */,
+				5227CDB91E11A6BA00F770BE /* PNChartDelegate.h */,
+				5227CDBA1E11A6BA00F770BE /* PNChartLabel.h */,
+				5227CDBB1E11A6BA00F770BE /* PNChartLabel.m */,
+				5227CDBC1E11A6BA00F770BE /* PNColor.h */,
+				5227CDBD1E11A6BA00F770BE /* PNColor.m */,
+				5227CDBE1E11A6BA00F770BE /* PNGenericChart.h */,
+				5227CDBF1E11A6BA00F770BE /* PNGenericChart.m */,
+				5227CDC01E11A6BA00F770BE /* PNLineChart.h */,
+				5227CDC11E11A6BA00F770BE /* PNLineChart.m */,
+				5227CDC21E11A6BA00F770BE /* PNLineChartData.h */,
+				5227CDC31E11A6BA00F770BE /* PNLineChartData.m */,
+				5227CDC41E11A6BA00F770BE /* PNLineChartDataItem.h */,
+				5227CDC51E11A6BA00F770BE /* PNLineChartDataItem.m */,
+				5227CDC61E11A6BA00F770BE /* PNPieChart.h */,
+				5227CDC71E11A6BA00F770BE /* PNPieChart.m */,
+				5227CDC81E11A6BA00F770BE /* PNPieChartDataItem.h */,
+				5227CDC91E11A6BA00F770BE /* PNPieChartDataItem.m */,
+				5227CDCA1E11A6BA00F770BE /* PNRadarChart.h */,
+				5227CDCB1E11A6BA00F770BE /* PNRadarChart.m */,
+				5227CDCC1E11A6BA00F770BE /* PNRadarChartDataItem.h */,
+				5227CDCD1E11A6BA00F770BE /* PNRadarChartDataItem.m */,
+				5227CDCE1E11A6BA00F770BE /* PNScatterChart.h */,
+				5227CDCF1E11A6BA00F770BE /* PNScatterChart.m */,
+				5227CDD01E11A6BA00F770BE /* PNScatterChartData.h */,
+				5227CDD11E11A6BA00F770BE /* PNScatterChartData.m */,
+				5227CDD21E11A6BA00F770BE /* PNScatterChartDataItem.h */,
+				5227CDD31E11A6BA00F770BE /* PNScatterChartDataItem.m */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
+		5227CDE31E11B5B900F770BE /* Salary ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				527A6E841DFF259F00510FA3 /* ViewController.h */,
+				527A6E851DFF25A000510FA3 /* ViewController.m */,
+				527A6EF61DFF34BB00510FA3 /* firstViewController.h */,
+				527A6EF71DFF34BC00510FA3 /* firstViewController.m */,
+				52172F581E0023C600940C2C /* SalaryViewController.h */,
+				52172F591E0023C600940C2C /* SalaryViewController.m */,
+				52172F5B1E002C5900940C2C /* SalaryDetailsViewController.h */,
+				52172F5C1E002C5900940C2C /* SalaryDetailsViewController.m */,
+			);
+			name = "Salary ViewControllers";
+			sourceTree = "<group>";
+		};
+		5227CDE41E11B5F100F770BE /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				524D43CE1E0860B0003C65A0 /* PersonalExpenseViewController.h */,
+				524D43CF1E0860B1003C65A0 /* PersonalExpenseViewController.m */,
+				527A6EF91DFF415800510FA3 /* ExpensesViewController.h */,
+				527A6EFA1DFF415800510FA3 /* ExpensesViewController.m */,
+				5227CD751E119D4400F770BE /* GraphViewController.h */,
+				5227CD761E119D4400F770BE /* GraphViewController.m */,
+			);
+			name = Expenses;
+			sourceTree = "<group>";
+		};
+		525851F31E02BF0D009EC243 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				52E4255E1E13017A00B24020 /* DayExpenses+CoreDataClass.h */,
+				52E4255F1E13017B00B24020 /* DayExpenses+CoreDataClass.m */,
+				52E425601E13017B00B24020 /* DayExpenses+CoreDataProperties.h */,
+				52E425611E13017B00B24020 /* DayExpenses+CoreDataProperties.m */,
+				52E425621E13017B00B24020 /* Expense+CoreDataClass.h */,
+				52E425631E13017B00B24020 /* Expense+CoreDataClass.m */,
+				52E425641E13017B00B24020 /* Expense+CoreDataProperties.h */,
+				52E425651E13017B00B24020 /* Expense+CoreDataProperties.m */,
+				52E425661E13017B00B24020 /* MonthExpenses+CoreDataClass.h */,
+				52E425671E13017B00B24020 /* MonthExpenses+CoreDataClass.m */,
+				52E425681E13017B00B24020 /* MonthExpenses+CoreDataProperties.h */,
+				52E425691E13017B00B24020 /* MonthExpenses+CoreDataProperties.m */,
+			);
+			name = CoreData;
+			path = SalaryCalculatorAPP;
+			sourceTree = "<group>";
+		};
+		525851F41E02C8E4009EC243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5227CD7E1E11A20500F770BE /* Foundation.framework */,
+				5227CD7C1E11A1F500F770BE /* QuartzCore.framework */,
+				5227CD7A1E11A1EB00F770BE /* UIKit.framework */,
+				5227CD781E11A1E000F770BE /* CoreGraphics.framework */,
+				526D839B1E02DCDA002750F0 /* CoreFoundation.framework */,
+				525851F51E02C8E4009EC243 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		527A6E721DFF259E00510FA3 = {
 			isa = PBXGroup;
 			children = (
+				0447FB9A1E1CE91E00FE1354 /* DR-Charts */,
+				5227CDB31E11A6BA00F770BE /* PNChart */,
+				525851F31E02BF0D009EC243 /* CoreData */,
 				527A6E7D1DFF259E00510FA3 /* SalaryCalculatorAPP */,
 				527A6E9A1DFF25A300510FA3 /* SalaryCalculatorAPPTests */,
 				527A6EA51DFF25A300510FA3 /* SalaryCalculatorAPPUITests */,
 				527A6E7C1DFF259E00510FA3 /* Products */,
+				525851F41E02C8E4009EC243 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +407,12 @@
 			children = (
 				527A6E811DFF259F00510FA3 /* AppDelegate.h */,
 				527A6E821DFF259F00510FA3 /* AppDelegate.m */,
-				527A6E841DFF259F00510FA3 /* ViewController.h */,
-				527A6E851DFF25A000510FA3 /* ViewController.m */,
+				5227CDE31E11B5B900F770BE /* Salary ViewControllers */,
+				5227CDE41E11B5F100F770BE /* Expenses */,
 				527A6E871DFF25A000510FA3 /* Main.storyboard */,
+				52172F5E1E0032B400940C2C /* SalarySurvey2013News574-2.png */,
+				52172F601E003A3300940C2C /* Sort Down Filled-50.png */,
+				526AC66D1E007F2300752B68 /* Rupee-50.png */,
 				527A6E8D1DFF25A200510FA3 /* Assets.xcassets */,
 				527A6E8F1DFF25A200510FA3 /* LaunchScreen.storyboard */,
 				527A6E921DFF25A200510FA3 /* Info.plist */,
@@ -205,11 +510,12 @@
 		527A6E731DFF259E00510FA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = chaitanya;
 				TargetAttributes = {
 					527A6E7A1DFF259E00510FA3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3E3FY83TP3;
 						ProvisioningStyle = Automatic;
 					};
 					527A6E961DFF25A300510FA3 = {
@@ -249,7 +555,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526AC66E1E007F2300752B68 /* Rupee-50.png in Resources */,
+				52172F5F1E0032B400940C2C /* SalarySurvey2013News574-2.png in Resources */,
 				527A6E911DFF25A200510FA3 /* LaunchScreen.storyboard in Resources */,
+				52172F611E003A3300940C2C /* Sort Down Filled-50.png in Resources */,
 				527A6E8E1DFF25A200510FA3 /* Assets.xcassets in Resources */,
 				527A6E891DFF25A000510FA3 /* Main.storyboard in Resources */,
 			);
@@ -276,10 +585,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0447FBB51E1CE91E00FE1354 /* DRScrollView.m in Sources */,
+				0447FBBA1E1CE91E00FE1354 /* PieChart.m in Sources */,
+				527A6EF81DFF34BC00510FA3 /* firstViewController.m in Sources */,
+				52172F5D1E002C5900940C2C /* SalaryDetailsViewController.m in Sources */,
+				0447FBB91E1CE91E00FE1354 /* MultiLineGraphView.m in Sources */,
+				0447FBB61E1CE91E00FE1354 /* HorizontalStackBarChart.m in Sources */,
 				527A6E861DFF25A000510FA3 /* ViewController.m in Sources */,
 				527A6E831DFF259F00510FA3 /* AppDelegate.m in Sources */,
+				5227CDD71E11A6BB00F770BE /* PNColor.m in Sources */,
 				527A6E8C1DFF25A200510FA3 /* SalaryCalculatorAPP.xcdatamodeld in Sources */,
+				0447FBB81E1CE91E00FE1354 /* LineGraphMarker.m in Sources */,
+				52172F5A1E0023C600940C2C /* SalaryViewController.m in Sources */,
+				524D43D01E0860B1003C65A0 /* PersonalExpenseViewController.m in Sources */,
+				5227CDE11E11A6BB00F770BE /* PNScatterChartData.m in Sources */,
+				5227CDD81E11A6BB00F770BE /* PNGenericChart.m in Sources */,
+				5227CDDE1E11A6BB00F770BE /* PNRadarChart.m in Sources */,
+				5227CDDC1E11A6BB00F770BE /* PNPieChart.m in Sources */,
+				5227CDD61E11A6BB00F770BE /* PNChartLabel.m in Sources */,
+				5227CDD51E11A6BB00F770BE /* PNBarChart.m in Sources */,
+				0447FBB31E1CE91E00FE1354 /* BarChart.m in Sources */,
+				5227CDDA1E11A6BB00F770BE /* PNLineChartData.m in Sources */,
+				5227CD771E119D4400F770BE /* GraphViewController.m in Sources */,
+				5227CDDD1E11A6BB00F770BE /* PNPieChartDataItem.m in Sources */,
+				5227CDE21E11A6BB00F770BE /* PNScatterChartDataItem.m in Sources */,
+				5227CDE01E11A6BB00F770BE /* PNScatterChart.m in Sources */,
+				0447FBB41E1CE91E00FE1354 /* CircularChart.m in Sources */,
+				5227CDDF1E11A6BB00F770BE /* PNRadarChartDataItem.m in Sources */,
+				5227CDDB1E11A6BB00F770BE /* PNLineChartDataItem.m in Sources */,
+				5227CDD91E11A6BB00F770BE /* PNLineChart.m in Sources */,
+				5227CDD41E11A6BA00F770BE /* PNBar.m in Sources */,
+				0447FBB71E1CE91E00FE1354 /* LegendView.m in Sources */,
 				527A6E801DFF259F00510FA3 /* main.m in Sources */,
+				527A6EFB1DFF415800510FA3 /* ExpensesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +690,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -400,6 +739,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,6 +758,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -428,6 +769,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3E3FY83TP3;
 				INFOPLIST_FILE = SalaryCalculatorAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.SalaryCalculatorAPP;
@@ -439,6 +781,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3E3FY83TP3;
 				INFOPLIST_FILE = SalaryCalculatorAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neorays.SalaryCalculatorAPP;
@@ -511,6 +854,7 @@
 				527A6EAD1DFF25A300510FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527A6EAE1DFF25A300510FA3 /* Build configuration list for PBXNativeTarget "SalaryCalculatorAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +863,7 @@
 				527A6EB01DFF25A300510FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527A6EB11DFF25A300510FA3 /* Build configuration list for PBXNativeTarget "SalaryCalculatorAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +872,7 @@
 				527A6EB31DFF25A300510FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

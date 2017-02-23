@@ -16,6 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+   // [[UITabBar appearance] setBackgroundColor:[UIColor grayColor]];
     // Override point for customization after application launch.
     return YES;
 }
